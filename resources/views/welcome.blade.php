@@ -466,7 +466,7 @@
 
 
                     <div class="wp-block-group alignfull pt-md-5 is-layout-constrained wp-block-group-is-layout-constrained" data-splitting="">
-                    <h2 class="wp-block-heading has-text-align-center mb-4 pt-md-5 has-super-gigantic-font-size" style="letter-spacing:-0.04em"><strong><mark style="color:#c1cacf" class="has-inline-color">Think</mark> business payments.</strong> <strong><mark style="color:#c1cacf" class="has-inline-color">Think</mark> Payoneer.</strong></h2>
+                    <h2 class="wp-block-heading has-text-align-center mb-4 pt-md-5 has-super-gigantic-font-size" style="letter-spacing:-0.04em"><strong><mark style="color:#c1cacf" class="has-inline-color">Think</mark> business payments.</strong> <strong><mark style="color:#c1cacf" class="has-inline-color">Think</mark> Fundexsl .</strong></h2>
                     </div>
 
 
@@ -588,7 +588,7 @@
 
 
 
-                    <div class="wp-block-group alignfull d-flex flex-column justify-content-center mvh-100 payoneer-values is-style-blurred-bubbles overflow-hidden has-payoneer-dark-black-background-color has-background is-layout-flow wp-block-group-is-layout-flow" data-section-name="Why do business with Payoneer?">
+                    <div class="wp-block-group alignfull d-flex flex-column justify-content-center mvh-100 payoneer-values is-style-blurred-bubbles overflow-hidden has-payoneer-dark-black-background-color has-background is-layout-flow wp-block-group-is-layout-flow" data-section-name="Why do business with Fundexsl ?">
                     <div class="wp-block-group alignfull position-absolute translate-middle top-50 is-layout-flow wp-block-group-is-layout-flow" id="globe"></div>
 
 
@@ -597,7 +597,7 @@
                     <div class="wp-block-group alignwide section is-layout-flow wp-block-group-is-layout-flow">
                     <div class="wp-block-columns gap-0 is-layout-flex wp-container-core-columns-layout-4 wp-block-columns-is-layout-flex">
                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                    <h2 class="wp-block-heading text-center text-md-start mb-3 has-payoneer-white-color has-text-color"><strong>Why do business with Payoneer?</strong></h2>
+                    <h2 class="wp-block-heading text-center text-md-start mb-3 has-payoneer-white-color has-text-color"><strong>Why do business with Fundexsl ?</strong></h2>
 
 
 
@@ -621,7 +621,7 @@
 
 
 
-                    <div id="block_f3af9e9cdaabd0a20ea76090256e0185" class="slider-wrapper slider-initialized" data-slides-desktop="3" data-carousel-name="HP why do business with Payoneer">
+                    <div id="block_f3af9e9cdaabd0a20ea76090256e0185" class="slider-wrapper slider-initialized" data-slides-desktop="3" data-carousel-name="HP why do business with Fundexsl ">
                         <div class="slider-container slide-transition py-0 slick-initialized slick-slider"><button class="slick-prev slick-arrow slick-disabled" aria-label="Previous" type="button" aria-disabled="true" style="display: inline-block;">Previous</button>
 
 
