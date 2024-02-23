@@ -306,7 +306,7 @@
 
 
     <!-- Our Amazing Team In start -->
-    <section class="our-team">
+    <section class="our-team" id="team">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row justify-content-center">

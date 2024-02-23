@@ -123,9 +123,9 @@
                     <div class="footer-box">
                         <h5>Company</h5>
                         <ul class="footer-link">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">History</a></li>
-                            <li><a href="#">Team</a></li>
+                            <li><a href="{{url('/')}}/about-us">About Us</a></li>
+                            <li><a href="{{url('/')}}/about-us">History</a></li>
+                            <li><a href="{{url('/')}}/about-us#team">Team</a></li>
                         </ul>
                     </div>
                 </div>
