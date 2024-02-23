@@ -28,4 +28,10 @@ class HomeController extends Controller
     {
         return view('front.privacy');
     }
+
+    // Create Method for contact
+    public function contact()
+    {
+        return view('front.contact');
+    }
 }

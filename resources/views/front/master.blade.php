@@ -56,25 +56,14 @@
                         <ul class="dropdown-menu main-menu shadow">
                           <li class="dropend sub-navbar">
                               <a href="javascript:void(0)" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
-                                data-bs-auto-close="outside">Account</a>
+                                data-bs-auto-close="outside">Business 1</a>
                               <ul class="dropdown-menu sub-menu shadow">
-                                <li><a class="nav-link" href="account.html">Account</a></li>
-                                <li><a class="nav-link" href="account-details.html">Account Details</a></li>
+                                <li><a class="nav-link" href="#">Sub Business 1</a></li>
+                                <li><a class="nav-link" href="#">Sub Business 2</a></li>
                               </ul>
                           </li>
-                          <li><a class="nav-link" href="product.html">Product</a></li>
-                          <li class="dropend sub-navbar">
-                            <a href="javascript:void(0)" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
-                              data-bs-auto-close="outside">Loan</a>
-                            <ul class="dropdown-menu sub-menu shadow">
-                              <li><a class="nav-link" href="business-loan.html">Business Loans</a></li>
-                              <li><a class="nav-link" href="educations-loan.html">Educations Loans</a></li>
-                              <li><a class="nav-link" href="home-loan.html">Home Loans</a></li>
-                              <li><a class="nav-link" href="car-loan.html">Car Loans</a></li>
-                              <li><a class="nav-link" href="personal-loan.html">Personal Loans</a></li>
-                            </ul>
-                          </li>
-                          <li><a class="nav-link" href="card.html">Card</a></li>
+                          <li><a class="nav-link" href="product.html">Business II</a></li>
+
                         </ul>
                       </li>
                     <li class="nav-item">
@@ -83,7 +72,7 @@
 
 
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contact Us</a>
+                      <a class="nav-link" href="{{url('/')}}/contact-us">Contact Us</a>
                     </li>
                   </ul>
                   <div class="right-area header-action d-flex align-items-center">

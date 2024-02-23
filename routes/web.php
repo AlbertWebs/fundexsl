@@ -18,6 +18,7 @@ Route::get('/', function () {
 });
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/about-us', [App\Http\Controllers\HomeController::class, 'about'])->name('about-us');
+Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact-us');
 // Group route and add prefix legal
 
 Route::get('legal/terms-and-conditions', [App\Http\Controllers\HomeController::class, 'terms'])->name('terms-and-conditions');
