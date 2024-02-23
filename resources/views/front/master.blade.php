@@ -48,7 +48,7 @@
                       <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">About Us</a>
+                      <a class="nav-link" aria-current="page" href="{{url('/')}}/about-us">About Us</a>
                     </li>
                     <li class="nav-item dropdown main-navbar">
                         <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown"
