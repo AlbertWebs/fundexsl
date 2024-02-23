@@ -35,7 +35,7 @@
           <div class="container">
             <div class="row d-flex header-area">
               <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="{{url('/')}}">
                   <img style="max-width:100px;" src="{{asset('theme/assets/images/logo-fundex.png')}}" class="logo" alt="logo">
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
@@ -78,7 +78,7 @@
                         </ul>
                       </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Careers</a>
+                        <a class="nav-link" aria-current="page" href="{{url('/')}}/about-us#career">Careers</a>
                     </li>
 
 
@@ -133,7 +133,7 @@
                     <div class="footer-box">
                         <h5>Useful Links</h5>
                         <ul class="footer-link">
-                            <li><a href="#">Business</a></li>
+                            <li><a href="{{url('/')}}/about-us#career">Career</a></li>
                             <li><a href="#">Solutions</a></li>
                             <li><a href="#">Locations</a></li>
                         </ul>
@@ -162,8 +162,8 @@
                             </p>
                         </div>
                         <div class="right">
-                            <a href="privacy-policy.html" class="cus-bor">Privacy </a>
-                            <a href="terms-conditions.html">Terms &amp; Condition </a>
+                            <a href="{{url('/')}}/legal/privacy-policy" class="cus-bor">Privacy Policy </a>
+                            <a href="{{url('/')}}/legal/terms-and-conditions">Terms &amp; Condition </a>
                         </div>
                     </div>
                 </div>

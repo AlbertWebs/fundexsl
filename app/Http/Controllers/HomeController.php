@@ -16,4 +16,16 @@ class HomeController extends Controller
     {
         return view('front.about');
     }
+
+    // method for terms
+    public function terms()
+    {
+        return view('front.terms');
+    }
+
+    // method for privacy
+    public function privacy()
+    {
+        return view('front.privacy');
+    }
 }

@@ -525,7 +525,7 @@
     <!-- Our Amazing Team In end -->
 
     <!-- Current Positions In start -->
-    <section class="current-positions">
+    <section class="current-positions" id="career">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row justify-content-center">
