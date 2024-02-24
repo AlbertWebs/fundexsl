@@ -151,7 +151,7 @@
            @if($Order % 2 == 0)
 
           <!-- Features In start -->
-            <section class="features-section second">
+            <section class="features-section second" id="{{$Service->slung}}">
                 <div class="overlay pt-120 pb-120">
                     <div class="container wow fadeInUp">
                         <div class="row">
@@ -183,7 +183,7 @@
 
             @else
 
-                <section class="features-section second  our-core-values">
+                <section class="features-section second  our-core-values" id="{{$Service->slung}}">
                     <div class="overlay pt-120 pb-120">
                         <div class="container wow fadeInUp">
                             <div class="row">
