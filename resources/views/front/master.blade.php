@@ -50,20 +50,28 @@
                     <li class="nav-item">
                       <a class="nav-link" aria-current="page" href="{{url('/')}}/about-us">About Us</a>
                     </li>
+                    <?php
+                        $Category = App\Models\Category::all();
+                    ?>
+
                     <li class="nav-item dropdown main-navbar">
                         <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown"
                           data-bs-auto-close="outside">Business</a>
                         <ul class="dropdown-menu main-menu shadow">
-                          <li class="dropend sub-navbar">
-                              <a href="javascript:void(0)" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
-                                data-bs-auto-close="outside">Business 1</a>
-                              <ul class="dropdown-menu sub-menu shadow">
-                                <li><a class="nav-link" href="#">Sub Business 1</a></li>
-                                <li><a class="nav-link" href="#">Sub Business 2</a></li>
-                              </ul>
-                          </li>
-                          <li><a class="nav-link" href="product.html">Business II</a></li>
-
+                            @foreach ($Category as $category)
+                            <li class="dropend sub-navbar">
+                                <a href="javascript:void(0)" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside">{{$category->title}}</a>
+                                    <?php
+                                       $Services = App\Models\Service::where('category_id',$category->id)->get();
+                                     ?>
+                                <ul class="dropdown-menu sub-menu shadow">
+                                    @foreach ($Services as $service)
+                                    <li><a class="nav-link" href="{{url('/')}}/business/{{$category->slung}}#{{$service->slung}}">{{$service->title}}</a></li>
+                                    @endforeach
+                                </ul>
+                            </li>
+                            @endforeach
                         </ul>
                       </li>
                     <li class="nav-item">

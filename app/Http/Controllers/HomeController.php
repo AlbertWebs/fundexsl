@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Service;
+use App\Models\Category;
 
 class HomeController extends Controller
 {
@@ -33,5 +35,23 @@ class HomeController extends Controller
     public function contact()
     {
         return view('front.contact');
+    }
+
+    public function business($slung){
+        $Category = Category::where('slung',$slung)->first();
+        if($Category->title == "Remittance"){
+            $Services = Service::where('category_id',$Category->id)->get();
+            return view('front.remitance', compact('Category','Services'));
+        }
+        elseif($Category->title == "Mobile Money Transaction")
+        {
+            $Services = Service::where('category_id',$Category->id)->get();
+            return view('front.mobile',compact('Category','Services'));
+        }
+        else
+        {
+            $Services = Service::where('category_id',$Category->id)->get();
+            return view('front.micro',compact('Category','Services'));
+        }
     }
 }
