@@ -12,18 +12,13 @@
                             <div class="main-content">
                                 <div class="section-text">
                                     <h5 class="sub-title">Simple. Transparent. Secure</h5>
-                                    <h2 class="title">Send/Receive Remittance Back Home</h2>
-                                    <p>
-                                        Competitive rates, low fees, and the most reliable money transfer convenient way.
-                                        <br>
-                                        You can receive money from abroad directly.
+                                    <h2 class="title">Mobile Money Transaction</h2>
+                                    <p style="max-width:600px;">
+                                        Fundex SL LTD provides a secure and convenient Mobile Money Transaction service,
+                                        Enabling users to easily conduct financial transactions via their mobile devices.
+                                        The service offers seamless money transfers, bill payments, and ensures transaction security.
+                                        With a user-friendly interface, Fundex SL LTD aims to enhance financial accessibility and inclusion for a diverse user base.
                                     </p>
-                                </div>
-                                <div class="button-group d-flex align-items-center flex-wrap">
-                                    <a style="border:2px solid #1A4DBE; border-radius:10px" href="javascript:void(0)"><img src="{{asset('uploads/logos/MoneyGram-Logo.png')}}" alt="image"></a>
-                                    <a style="border:2px solid #1A4DBE; border-radius:10px" href="javascript:void(0)"><img src="{{asset('uploads/logos/Western-Union-Logo.png')}}" alt="image"></a>
-                                    <a style="border:2px solid #1A4DBE; border-radius:10px" href="javascript:void(0)"><img src="{{asset('uploads/logos/ria.png')}}" alt="image"></a>
-                                    {{-- <a style="border:2px solid #1A4DBE; border-radius:10px" href="javascript:void(0)"><img src="{{asset('uploads/logos/Afro-logo.png')}}" alt="image"></a> --}}
                                 </div>
                             </div>
                         </div>
@@ -31,116 +26,9 @@
                 </div>
             </div>
         </div>
-        {{-- <div class="bottom-box">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="form-content">
-                            <div class="section-header text-center">
-                                <h2 class="title">Send Money Anywhere</h2>
-                                <p>Please fill the form below. We will get in touch with you within 1-2 business days, to request all necessary details</p>
-                            </div>
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <div class="single-input">
-                                            <label for="send">You send</label>
-                                            <div class="single d-flex align-items-center">
-                                                <input type="text" id="send" placeholder="1000">
-                                                <div class="d-flex align-items-center">
-                                                    <img src="{{asset('theme/assets/images/united-states.png')}}" alt="image">
-                                                    <select>
-                                                        <option value="1">USD</option>
-                                                        <option value="2">EUR</option>
-                                                        <option value="3">INR</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="single-input">
-                                            <label for="gets">Recipient Gets</label>
-                                            <div class="single d-flex align-items-center">
-                                                <input type="text" id="gets" placeholder="73,605.00">
-                                                <div class="d-flex align-items-center">
-                                                    <img src="{{asset('theme/assets/images/austria.png')}}" alt="image">
-                                                    <select>
-                                                        <option value="1">EUR</option>
-                                                        <option value="2">UDS</option>
-                                                        <option value="3">INR</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-bottom row align-items-center justify-content-between">
-                                    <div class="col-xl-6 col-md-4">
-                                        <p>Exchange Rate</p>
-                                    </div>
-                                    <div class="col-xl-6 col-md-8 d-sm-flex align-items-center justify-content-md-end justify-content-start">
-                                        <p class="currency"><span>73.61</span> USD to EUR</p>
-                                        <div class="btn-area text-center">
-                                            <button class="cmn-btn">Transfer Funds</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
     </section>
     <!-- banner-section end -->
 
-    <!-- Feature In start -->
-    <section class="account-feature remittance">
-        <div class="overlay pt-120 pb-120">
-            <div class="container wow fadeInUp">
-                <div class="row cus-mar">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-box active">
-                            <div class="icon-box">
-                                <img src="{{asset('theme/assets/images/icon/remittance-1.png')}}" alt="icon">
-                            </div>
-                            <h5>Affordable</h5>
-                            <p>Low fees on international money transfers – always</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-box active">
-                            <div class="icon-box">
-                                <img src="{{asset('theme/assets/images/icon/remittance-2.png')}}" alt="icon">
-                            </div>
-                            <h5>Simple</h5>
-                            <p>We have an easy-to-use app and a team ready to help you</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-box active">
-                            <div class="icon-box">
-                                <img src="{{asset('theme/assets/images/icon/remittance-3.png')}}" alt="icon">
-                            </div>
-                            <h5>Quick</h5>
-                            <p>Send money to your loved ones in minutes</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-box active">
-                            <div class="icon-box">
-                                <img src="{{asset('theme/assets/images/icon/remittance-4.png')}}" alt="icon">
-                            </div>
-                            <h5>Secure</h5>
-                            <p>Our 4.8-star app store rating speaks for itself</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Feature In end -->
 
  <?php
     $Order = 1
@@ -151,6 +39,35 @@
            @if($Order % 2 == 0)
 
           <!-- Features In start -->
+
+            <!-- Features In end -->
+            <section class="features-section second  our-core-values" id="{{$Service->slung}}">
+                <div class="overlay pt-120 pb-120">
+                    <div class="container wow fadeInUp">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="top-section" style="vertical-align: middle">
+                                <br>
+                                    <h5 class="sub-title">We Simplify Mobile Money Transactions</h5>
+                                    <h2 class="title">{{$Service->title}}</h2>
+                                    <p>
+                                       {!!html_entity_decode($Service->meta)!!}
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 text-start cus-ord">
+                                <div class="img-area">
+                                    <img style="border:1px solid #1A4DBE; max-height:300px !important; object-fit: cover; width:100%"  src="{{url('/')}}/uploads/mobile/{{$Service->image}}" title="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            @else
+
             <section class="features-section second" id="{{$Service->slung}}">
                 <div class="overlay pt-120 pb-120">
                     <div class="container wow fadeInUp">
@@ -162,7 +79,7 @@
 
                                         Your browser does not support the video tag.
                                     </video> --}}
-                                    <img style="border:1px solid #1A4DBE; max-height:300px !important; object-fit: cover; "  src="{{url('/')}}/uploads/remitance/{{$Service->image}}" title="">
+                                    <img style="border:1px solid #1A4DBE; max-height:300px !important; object-fit: cover; width:100%"  src="{{url('/')}}/uploads/mobile/{{$Service->image}}" title="">
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -180,34 +97,6 @@
                     </div>
                 </div>
             </section>
-            <!-- Features In end -->
-
-            @else
-
-                <section class="features-section second  our-core-values" id="{{$Service->slung}}">
-                    <div class="overlay pt-120 pb-120">
-                        <div class="container wow fadeInUp">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="top-section" style="vertical-align: middle">
-                                    <br>
-                                        <h5 class="sub-title">We Make Remittance transactions local and easy</h5>
-                                        <h2 class="title">{{$Service->title}}</h2>
-                                        <p>
-                                           {!!html_entity_decode($Service->meta)!!}
-                                        </p>
-
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 text-start cus-ord">
-                                    <div class="img-area">
-                                        <img style="border:1px solid #1A4DBE; max-height:300px !important; object-fit: cover; width:100%"  src="{{url('/')}}/uploads/remitance/{{$Service->image}}" title="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
 
             @endif
      <?php
@@ -215,32 +104,7 @@
       ?>
      @endforeach
 
-    <!-- App In start -->
-    <section class="features-section app-download remittance">
-        <div class="overlay pt-120 pb-120">
-            <div class="container wow fadeInUp">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="img-area">
-                            <img class="max-un" src="{{asset('theme/assets/images/right-choice-Illus.png')}}" alt="image">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="top-section">
-                            <h5 class="sub-title">Learn why Fundex SL is the right choice for you</h5>
-                            <h2 class="title">Send money from the comfort of home</h2>
-                            <p>You can deposit money directly into someone’s bank account. This way, they don’t even have to leave their house either!</p>
-                        </div>
-                        {{-- <div class="button-group d-flex align-items-center flex-wrap">
-                            <a href="javascript:void(0)"><img src="{{asset('theme/assets/images/google-play.png')}}" alt="image"></a>
-                            <a href="javascript:void(0)"><img src="{{asset('theme/assets/images/app-store.png')}}" alt="image"></a>
-                        </div> --}}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- App In end -->
+
 
     <!-- Security In start -->
     <section class="security-section remittance">
