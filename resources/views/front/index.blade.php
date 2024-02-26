@@ -254,7 +254,7 @@
 
 
     <!-- Our Latest Articles In start -->
-    <section class="latest-articles">
+    {{-- <section class="latest-articles">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row d-flex justify-content-center">
@@ -360,11 +360,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- Our Latest Articles In end -->
 
     <!-- FAQs In start -->
-    <section class="faqs-section">
+    {{-- <section class="faqs-section">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row d-flex justify-content-center">
@@ -496,7 +496,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- FAQs In end -->
 
     <!-- Get Start In start -->
