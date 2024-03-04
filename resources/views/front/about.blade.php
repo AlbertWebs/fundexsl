@@ -382,15 +382,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="single-box">
 
-                                            <div class="test-area">
-                                                <h5>Ibrahim Abdulai Koroma</h5>
-                                                <p>Regional Supervisor<br> (Eastern Region)</p>
-                                            </div>
-                                        </div>
-                                    </div>
 
                                     <div class="col-md-3 col-sm-6">
                                         <div class="single-box">
@@ -410,108 +402,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="single-box">
 
-                                            <div class="test-area">
-                                                <h5>Messie Massaquoi</h5>
-                                                <p>Relationship Officer <br>(Southern Region)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="single-box">
-
-                                            <div class="test-area">
-                                                <h5>Paul Jimmy</h5>
-                                                <p>Relationship Supervisor<br> (Western Region)</p>
-                                            </div>
-                                        </div>
-                                    </div>
                                     {{--  --}}
-                                    {{--  --}}
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="single-box">
-
-                                            <div class="test-area">
-                                                <h5>Nelson Saidu Koroma</h5>
-                                                <p>Relationship Supervisor (Kono)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="single-box">
-
-                                            <div class="test-area">
-                                                <h5>Peter Vanjah</h5>
-                                                <p>Relationship Supervisor <br>(Western Region)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="single-box">
-
-                                            <div class="test-area">
-                                                <h5>Mohamed Konia Gbabai</h5>
-                                                <p> Relationship Officer <br>(Western Region)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="single-box">
-
-                                            <div class="test-area">
-                                                <h5>Elizabeth Saba Kamara</h5>
-                                                <p>Customer Service Officer<br> (Western Region)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="single-box">
-
-                                            <div class="test-area">
-                                                <h5>Zainab Kamara</h5>
-                                                <p>Customer Service Officer<br> (Western Region)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="single-box">
-
-                                            <div class="test-area">
-                                                <h5>Lauretta Yemi</h5>
-                                                <p>Customer Service Officer<br> (Southern Region)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="single-box">
-
-                                            <div class="test-area">
-                                                <h5>Iyeshiatu Seray Barrie</h5>
-                                                <p>Customer Service Officer (Northern Region)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="single-box">
-
-                                            <div class="test-area">
-                                                <h5>Iris Harolda Jones</h5>
-                                                <p>Main Administrative Officer - Main Office</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="single-box">
-                                            <div class="test-area">
-                                                <h5>Abdulai Lansana</h5>
-                                                <p>Administrative Assistant - Main Office </p>
-                                            </div>
-                                        </div>
-                                    </div>
 
 
                                 </div>
@@ -543,7 +435,7 @@
                             <p class="mdr">Management</p>
                             <h5>Office Manager</h5>
                             <p>Proin sed eros ac libero auctor egestas. Duis maximus imperdiet ultricies. Donec finibus diam risus</p>
-                            <a href="career-single.html" class="cmn-btn">Apply Now</a>
+                            <a href="{{url('/')}}/job-application" class="cmn-btn">Apply Now</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
@@ -551,7 +443,7 @@
                             <p class="mdr">IT</p>
                             <h5>Assistant information Technologist</h5>
                             <p>Proin sed eros ac libero auctor egestas. Duis maximus imperdiet ultricies. Donec finibus diam risus</p>
-                            <a href="career-single.html" class="cmn-btn">Apply Now</a>
+                            <a href="{{url('/')}}/job-application" class="cmn-btn">Apply Now</a>
                         </div>
                     </div>
                 </div>

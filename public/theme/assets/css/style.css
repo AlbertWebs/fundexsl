@@ -4649,7 +4649,10 @@ p, span, li {
     background-image: unset;
   }
   .features-section .img-area {
-    display: none;
+    /* display: none; */
+  }
+  .img-areas {
+    display: none !important;
   }
   .business-loan-section .main-content {
     padding: 60px 50px;

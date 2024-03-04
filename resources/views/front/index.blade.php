@@ -231,7 +231,7 @@
             <div class="container wow fadeInUp">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="img-area">
+                        <div class="img-area img-areas">
                             <img src="{{asset('theme/assets/images/sign-in-up-bg.png')}}" alt="image">
                         </div>
                     </div>

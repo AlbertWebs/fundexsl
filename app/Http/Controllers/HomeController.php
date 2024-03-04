@@ -37,6 +37,13 @@ class HomeController extends Controller
         return view('front.contact');
     }
 
+    public function application()
+    {
+        return view('front.application');
+    }
+
+
+
     public function business($slung){
         $Category = Category::where('slung',$slung)->first();
         if($Category->title == "Remittance"){
