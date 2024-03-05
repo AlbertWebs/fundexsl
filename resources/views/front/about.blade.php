@@ -412,9 +412,53 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
     <!-- Our Amazing Team In end -->
+    <div class="col-lg-12">
+        <div class="tab-content pt-120 pb-120">
+            <div class="partner">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 col-3">
+                            <h4>Partners</h4>
+                        </div>
+                        <div class="col-md-9 col-9">
+                            <div class="partner-box partner-carousel">
+                                <div class="single">
+                                    <div class="item">
+                                        <img src="{{url('/')}}/uploads/partners/1.jpg" alt="image">
+                                    </div>
+                                </div>
+                                <div class="single">
+                                    <div class="item">
+                                        <img src="{{url('/')}}/uploads/partners/2.jpg" alt="image">
+                                    </div>
+                                </div>
+                                <div class="single">
+                                    <div class="item">
+                                        <img src="{{url('/')}}/uploads/partners/3.jpg" alt="image">
+                                    </div>
+                                </div>
+                                <div class="single">
+                                    <div class="item">
+                                        <img src="{{url('/')}}/uploads/partners/4.jpg" alt="image">
+                                    </div>
+                                </div>
+                                <div class="single">
+                                    <div class="item">
+                                        <img src="{{url('/')}}/uploads/partners/5.jpg" alt="image">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Current Positions In start -->
     <section class="current-positions" id="career">
