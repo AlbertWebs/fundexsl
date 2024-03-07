@@ -67,7 +67,7 @@
                                     <div class="col-12">
                                         <div class="single-input">
                                             <p><input style="height:15px; width:15px;" type="checkbox"> By clicking submit, you agree to
-                                                <a href="{{url('/terms-and-conditions')}}">
+                                                <a href="{{url('/legal/terms-and-conditions')}}">
                                                     <span>
                                                         Fundex SL's Terms of Use, Privacy Policy, E-sign
                                                         &

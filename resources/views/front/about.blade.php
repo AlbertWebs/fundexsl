@@ -205,7 +205,7 @@
                     <div class="col-lg-9">
                         <div class="section-header text-center">
                             <h5 class="sub-title">Our core values</h5>
-                            <h2 class="title">Our values help us set the bar for quality service Delivery.</h2>
+                            <h4 class="title">Our values help us set the bar for quality service Delivery.</h4>
                             <p>
                                 We’re not going to tell you that we’re different. Everyone says that. Instead, here are the six behaviors we ask everyone at FundEx (SL) Ltd. to follow.
                                 They sum us up pretty neatly.
@@ -497,7 +497,7 @@
                         <div class="bottom-item">
                             <h3 class="title">Can´t find the perfect position?</h3>
                             <p>Send us an email anyways! We will save your resume for next time a relevant position opens.We're always looking for talent</p>
-                            <a href="contact.html" class="cmn-btn">Contact Us</a>
+                            <a href="{{url('/')}}/contact-us" class="cmn-btn">Contact Us</a>
                         </div>
                     </div>
                 </div>

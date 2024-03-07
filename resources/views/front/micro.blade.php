@@ -11,7 +11,7 @@
                     <div class="row justify-content-start">
                         <div class="col-lg-7 col-md-10">
                             <div class="main-content">
-                                <h1>{{$Category->title}}</h1>
+                                <h4>{{$Category->title}}</h4>
                                 <div class="breadcrumb-area">
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb d-flex align-items-center">

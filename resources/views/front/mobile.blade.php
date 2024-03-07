@@ -12,7 +12,7 @@
                             <div class="main-content">
                                 <div class="section-text">
                                     <h5 class="sub-title">Simple. Transparent. Secure</h5>
-                                    <h2 class="title">Mobile Money Transaction</h2>
+                                    <h4 class="title">Mobile Money Transaction</h4>
                                     <p style="max-width:600px;">
                                         Fundex SL LTD provides a secure and convenient Mobile Money Transaction service,
                                         Enabling users to easily conduct financial transactions via their mobile devices.

@@ -12,7 +12,7 @@
                             <div class="main-content">
                                 <div class="section-text">
                                     <h5 class="sub-title">Simple. Transparent. Secure</h5>
-                                    <h2 class="title">Send/Receive Remittance Back Home</h2>
+                                    <h4 class="title">Send/Receive Remittance Back Home</h4>
                                     <p>
                                         Competitive rates, low fees, and the most reliable money transfer convenient way.
                                         <br>

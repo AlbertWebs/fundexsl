@@ -36,7 +36,7 @@
             <div class="row d-flex header-area">
               <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="{{url('/')}}">
-                  <img style="max-width:130px;" src="{{asset('theme/assets/images/logo-fundex.png')}}" class="logo" alt="logo">
+                  <img style="max-width:190px;" src="{{asset('uploads/logo/logo.png')}}" class="logo" alt="logo">
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#navbar-content">
