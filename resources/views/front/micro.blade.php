@@ -127,6 +127,8 @@
                             </div>
                         </div>
                     </div>
+
+
                     <div class="row justify-content-center">
                         <div class="col-lg-10">
                             <div class="form-content">
@@ -134,18 +136,19 @@
                                     <h2 class="title">Apply for a loan</h2>
                                     <p>Please fill the form below. We will get in touch with you within 1-2 business days, to request all necessary details</p>
                                 </div>
-                                <form action="#">
+                                <form action="https://api.app.fundexsl.com/api/v1/loans/request" method="POST">
+                                    @csrf
                                     <div class="row">
                                         <div class="col-6">
                                             <div class="single-input">
                                                 <label for="name">Name</label>
-                                                <input type="text" id="name" placeholder="What's your name?">
+                                                <input name="client_name" type="text" id="name" placeholder="What's your name?">
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="single-input">
                                                 <label for="email">Email</label>
-                                                <input type="text" id="email" placeholder="What's your email?">
+                                                <input name="client_email" type="text" id="email" placeholder="What's your email?">
                                             </div>
                                         </div>
                                     </div>
@@ -153,7 +156,7 @@
                                         <div class="col-12">
                                             <div class="single-input">
                                                 <label for="phone">Telephone Number</label>
-                                                <input type="text" id="phone" placeholder="(123) 480 - 3540">
+                                                <input name="client_phone" type="text" id="phone" placeholder="(123) 480 - 3540">
                                             </div>
                                         </div>
                                     </div>
@@ -161,13 +164,13 @@
                                         <div class="col-6">
                                             <div class="single-input">
                                                 <label for="phone">Current Address:</label>
-                                                <input type="text" id="phone" placeholder="3573 Riverside Towers">
+                                                <input name="client_address" type="text" id="phone" placeholder="3573 Riverside Towers">
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="single-input">
                                                 <label for="state">District you’re Residing:</label>
-                                                <input type="text" id="state" placeholder="California">
+                                                <input name="client_location" type="text" id="state" placeholder="California">
                                             </div>
                                         </div>
                                     </div>
@@ -176,14 +179,14 @@
                                         <div class="col-6">
                                             <div class="single-input">
                                                 <label for="amount">Loan amount</label>
-                                                <input type="text" id="amount" placeholder="Ex. $8,000 USD">
+                                                <input name="loan_amount" type="text" id="amount" placeholder="Ex. SLE  800000">
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="single-input">
                                                 <label for="term">Institution you work:
                                                 </label>
-                                                <input type="text" id="term" placeholder="Ex Africa Science Limited">
+                                                <input name="customer_institution" type="text" id="term" placeholder="Ex Africa Science Limited">
                                             </div>
                                         </div>
                                     </div>
