@@ -61,4 +61,49 @@ class HomeController extends Controller
             return view('front.micro',compact('Category','Services'));
         }
     }
+
+    public function requestLoan(Request $request){
+        if(isset($request->tel)){
+            return view('thankYou');
+        }else{
+            $curl = curl_init();
+
+            $post_data=array(
+                'client_name'=>$request->client_name,
+                'loan_type'=>$request->loan_type,
+                'client_email'=>$request->client_email,
+                'client_phone'=>$request->client_phone,
+                'client_address'=>$request->client_address,
+                'client_location'=>$request->client_location,
+                'loan_amount'=>(float)$request->loan_amount,
+                'customer_institution'=>$request->customer_institution
+            );
+
+
+            curl_setopt_array($curl, array(
+                CURLOPT_URL => 'https://api.app.fundexsl.com/api/v1/loans/request',
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_ENCODING => '',
+                CURLOPT_MAXREDIRS => 10,
+                CURLOPT_TIMEOUT => 0,
+                CURLOPT_FOLLOWLOCATION => true,
+                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+                CURLOPT_CUSTOMREQUEST => 'POST',
+                CURLOPT_POSTFIELDS => json_encode($post_data),
+                CURLOPT_HTTPHEADER => array(
+                    'Content-Type: application/json'
+                ),
+            ));
+
+            $response = curl_exec($curl);
+
+            curl_close($curl);
+            // echo $response;
+
+            return view('thankYou');
+        }
+
+
+    }
 }
+

@@ -21,6 +21,8 @@ Route::get('/about-us', [App\Http\Controllers\HomeController::class, 'about'])->
 Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact-us');
 Route::get('/business/{slung}', [App\Http\Controllers\HomeController::class, 'business'])->name('business');
 Route::get('/job-application', [App\Http\Controllers\HomeController::class, 'application'])->name('application-us');
+Route::post('/requestLoan', [App\Http\Controllers\HomeController::class, 'requestLoan'])->name('requestLoan');
+
 
 //Group route and add prefix legal
 Route::get('legal/terms-and-conditions', [App\Http\Controllers\HomeController::class, 'terms'])->name('terms-and-conditions');

@@ -136,8 +136,10 @@
                                     <h2 class="title">Apply for a loan</h2>
                                     <p>Please fill the form below. We will get in touch with you within 1-2 business days, to request all necessary details</p>
                                 </div>
-                                <form action="https://api.app.fundexsl.com/api/v1/loans/request" method="POST">
+                                <form action="{{route('requestLoan')}}" method="POST">
                                     @csrf
+                                    <input type="hidden" name="loan_type" value="{{$Service->title}}">
+                                    <input type="text" name="tel" class="telephoneee">
                                     <div class="row">
                                         <div class="col-6">
                                             <div class="single-input">
