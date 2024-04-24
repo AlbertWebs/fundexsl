@@ -79,7 +79,6 @@ class HomeController extends Controller
                 'customer_institution'=>$request->customer_institution
             );
 
-
             curl_setopt_array($curl, array(
                 CURLOPT_URL => 'https://api.app.fundexsl.com/api/v1/loans/request',
                 CURLOPT_RETURNTRANSFER => true,
@@ -96,9 +95,7 @@ class HomeController extends Controller
             ));
 
             $response = curl_exec($curl);
-
             curl_close($curl);
-            // echo $response;
 
             return view('thankYou');
         }
